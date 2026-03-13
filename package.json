@@ -32,7 +32,7 @@
     "cmdk": "^1.1.1",
     "jose": "^6.0.11",
     "lucide-react": "^0.517.0",
-    "next": "15.3.3",
+    "next": "^15.5.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
@@ -40,8 +40,10 @@
     "server-only": "^0.0.1",
     "tailwind-merge": "^3.3.1"
   },
+  "overrides": {
+    "jsondiffpatch": ">=0.7.2"
+  },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "@tailwindcss/postcss": "^4",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.3.0",
@@ -52,6 +54,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4.5.2",
+    "cross-env": "^7.0.3",
     "eslint": "9.29.0",
     "eslint-config-next": "15.3.4",
     "jsdom": "^26.1.0",
